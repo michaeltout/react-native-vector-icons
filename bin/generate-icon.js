@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* eslint-disable no-console */
 
-const omit = require('lodash.omit');
+const { omit } = require('lodash');
 const fs = require('fs');
 const path = require('path');
 const yargs = require('yargs');
